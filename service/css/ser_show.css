@@ -1,0 +1,197 @@
+.main{
+	background: url(../images/bg3.jpg) no-repeat center top;
+	padding: 50px 0;
+	background-size: 100% 100%;
+}
+.main #img_wrap{
+	height: 50px;
+	line-height: 50px;
+	color: #ffffff;
+	font-size: 18px;
+	background: #CEA533;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 0;
+	position: relative;
+}
+.main #img_wrap img{position: absolute; right: 20px; top: 17px;}
+.rotate2{
+	transform: rotate(90deg);
+	transition: .5s;
+}
+.rotate3{
+	transform: rotate(0deg);
+	transition: .5s;
+}
+.main #sec li{
+	text-align: center;
+	background: none;
+	border-radius: 0;
+	border-color: #7E594A;
+	margin-top: 2px;
+	border-left: 0;
+	border-right: 0;	
+}
+.main #sec li a{
+	color: #7E594A;
+}
+.main h2{
+	font-size: 20px;
+	line-height: 22px;
+	color: rgb(204, 42, 30);
+	font-weight: bold;
+	margin: 0 0 25px 0;	
+}
+.main h2 span{
+	font-family: arial;
+	color: rgb(51, 51, 51);
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: normal;
+	display: block;
+}
+.main h2 b{
+	display: block;
+    margin: 12px auto;
+    width: 27px;
+    height: 3px;
+    background: #cac3b7;
+}
+.main .row{
+	margin-top: 20px;
+	padding: 0 7px;
+}
+.main .row>div{
+	padding: 0 8px;
+	margin-bottom: 20px;
+}
+.main .row div img{
+	width: 100%;
+}
+.box1{
+	width: 585px;
+	margin: 0 auto 20px auto;
+}
+.box1 a{
+	width: 133px;
+	margin: 0 31px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+	height: 41px;
+	font-size: 15px;
+	color: #A28C85;
+	border-top: 1px solid #A28C85;
+	border-bottom: 1px solid #A28C85;
+	border-radius: 0;
+	padding: 0px 0;
+}
+.box1 a span{
+	margin-top: 1px;
+	position: relative;
+	display: block;
+	height: 37px;
+	line-height: 38px;
+	box-sizing: border-box;
+	border-top: 1px solid #A28C85;
+	border-bottom: 1px solid #A28C85;
+}
+.box1 a span:after,.box1 a span:before{	
+	content: "";
+	display: block;
+	width: 21px;
+	height: 44px;
+	position: absolute;
+	top: -5px;
+	z-index: 3;
+}
+.box1 a span:before{
+	left: -20px;
+	background: url(../images/a1.png) no-repeat right center;
+}
+.box1 a span:after{
+	right: -20px;
+	background: url(../images/b1.png) no-repeat left center;
+}
+.box1 a span:hover{
+	color: #ffffff;
+	background: #CEA533;
+	border-color: #CEA533;
+	transition: .2s;
+}
+.box1 a span:hover:after{
+	background: url(../images/b2.png) no-repeat left center;
+	transition: .2s;
+}
+.box1 a span:hover:before{
+	background: url(../images/a2.png) no-repeat left center;
+	transition: .2s;
+}
+.main .page{
+	width: 218px;
+	margin: 0 auto;
+}
+.main .page li{
+	float: left;
+	margin: 0 5px;
+}
+.main .page li a{
+	color: #000000;
+	font-size: 14px;
+}
+.main .page li a:hover{
+	text-decoration: none;
+}
+.active{
+	color: red !important;
+}
+.record1,.record2{
+	display: none;
+}
+.main .wrap{
+	position: relative;
+	overflow: hidden;
+}
+.main .wrap .textbox{
+	position: absolute;
+	left: 0; 
+	bottom: -100%; 
+	z-index: 2; 
+	padding: 25px 35px 0; 
+	width: 100%; 
+	height: 100%;
+	background: rgba(202,164,57,0.9);
+}
+.main .wrap .textbox img{
+	width: 144px;
+	height: 126px;
+}
+.main .wrap .textbox h5{
+	margin:20px 0 10px; font-size:24px; color: #8f2828; font-weight:bold;
+}
+.main .wrap .textbox p{
+	margin:0 0 35px; height: 88px; font-size: 12px; color: #fff; line-height: 22px; overflow: hidden;
+}
+.main .wrap .textbox .more{ margin:0 auto; width: 104px; font-family: arial; font-size: 12px; color: #fff; line-height: 30px; border:solid 1px #fff; }
+.main .wrap:hover .textbox{
+	bottom: 0;
+	transition: .5s;
+}
+.main .text h4{
+	margin: 10px auto;
+	height: 19px;
+	line-height: 19px;
+	font-size: 18px;
+	color: rgb(51,51,51);
+}
+.main .text img{
+	border: 1px solid #B5B5B5;
+	padding: 1px;
+	margin-bottom: 20px;
+}
+.main .text p{
+	padding: 0;
+	line-height: 28px;
+	font-size: 14px;
+}

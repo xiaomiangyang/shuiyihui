@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让ie按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗                  宽度=设备宽度      缩放比例1倍      最大缩放比例1倍   禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--bootstrap核心css文件-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/clubhouse.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!--头部开始-->
+	<header class="container-fluid navbar">
+		<div class="container">
+			<div class="box visible-sm visible-xs clearfix">
+				<div class="logo">
+					<img src="../images/smallLogo.png" class="img-responsive" />
+				</div>
+				<button class="btn navbar-btn pull-right" data-toggle="collapse" data-target="#nav" id="menu_btn">
+					<span class="span1"></span>
+					<span class="span2"></span>
+					<span class="span3"></span>
+				</button>
+			</div>
+			<div class="menu clearfix hidden-sm hidden-xs">
+				<ul class="navbar-nav nav pull-left">
+					<li class="pull-left"><a href="../index.html">网站首页<span>HOME</span></a></li>
+					<li class="pull-left"><a href="../intruction/intruction.html">水怡汇简介<span>INTRUCTION</span></a></li>
+					<li class="pull-left"><a href="../service/service.html">服务项目<span>SERVICE</span></a></li>
+					<li class="pull-left"><a href="../consultant/consultant.html">顾问导师<span>CONSULTANT</span></a></li>
+				</ul>
+				<img src="../images/logo.png" class="logoImg" />
+				<ul class="navbar-nav nav pull-right">
+					<li class="pull-left"><a href="clubhouse.html">会所环境<span>CLUBHOUSE</span></a></li>
+					<li class="pull-left"><a href="../news/news.html">公司动态<span>NEWS</span></a></li>
+					<li class="pull-left"><a href="../industry/industry.html">行业资讯<span>INDUSTRY</span></a></li>
+					<li class="pull-left"><a href="../contact/contact.html">联系我们<span>CONTACT</span></a></li>
+				</ul>
+			</div>
+			<div class="collect hidden-sm hidden-xs">
+				<a href="#">加入收藏</a>
+				<a href="#">设为首页</a>
+			</div>
+			<ul class="nav navbar-nav collapse visible-sm visible-xs" id="nav">
+				<li><a href="../index.html">网站首页<span>HOME</span></a></li>
+				<li><a href="../intruction/intruction.html">水怡汇简介<span>INTRUCTION</span></a></li>
+				<li><a href="../service/service.html">服务项目<span>SERVICE</span></a></li>
+				<li><a href="../consultant/consultant.html">顾问导师<span>CONSULTANT</span></a></li>
+				<li><a href="clubhouse.html">会所环境<span>CLUBHOUSE</span></a></li>
+				<li><a href="../news/news.html">公司动态<span>NEWS</span></a></li>
+				<li><a href="../industry/industry.html">行业资讯<span>INDUSTRY</span></a></li>
+				<li><a href="../contact/contact.html">联系我们<span>CONTACT</span></a></li>
+			</ul>
+		</div>
+	</header>
+	<!--头部结束-->
+	
+	<!--隐藏头部-->
+	<div class="smallHeader navbar container-fluid hidden-sm hidden-xs clearfix">
+		<div class="container">
+			<div class="logo"><img src="../images/logo.png" class="img-responsive" /></div>
+			<ul class="nav navbar-nav pull-right">
+				<li><a href="../index.html">网站首页<span>HOME</span></a></li>
+				<li><a href="../intruction/intruction.html">水怡汇简介<span>INTRUCTION</span></a></li>
+				<li><a href="../service/service.html">服务项目<span>SERVICE</span></a></li>
+				<li><a href="../consultant/consultant.html">顾问导师<span>CONSULTANT</span></a></li>
+				<li><a href="clubhouse.html">会所环境<span>CLUBHOUSE</span></a></li>
+				<li><a href="../news/news.html">公司动态<span>NEWS</span></a></li>
+				<li><a href="../industry/industry.html">行业资讯<span>INDUSTRY</span></a></li>
+				<li><a href="../contact/contact.html">联系我们<span>CONTACT</span></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!--轮播开始-->
+	<div id="banner" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<a href="../index.html"><img src="../images/banner.jpg" alt=""/></a>
+			</div>
+			<div class="item">
+				<a href="../index.html"><img src="../images/banner.jpg" alt=""/></a>
+			</div>
+			<div class="item">
+				<a href="../index.html"><img src="../images/banner.jpg" alt=""/></a>
+			</div>
+		</div>
+		<div class="carousel-indicators">
+			<li data-target="#banner" data-slide-to='0' class="active"></li>
+			<li data-target="#banner" data-slide-to="1"></li>
+			<li data-target="#banner" data-slide-to="2"></li>
+		</div>
+	</div>
+	
+	<!--main开始-->
+	<div class="main container-fluid">
+		<div class="container">
+			<h2 class="hidden-xs hidden-sm text-center"><span>CLUBHOUSE ENVIRONMENT</span><b></b>会所环境</h2>
+			<div class="box1 clearfix hidden-xs hidden-sm">
+				<a href="javascript:;" class="btn" onclick="fun('.one')"><span>五星卫生</span></a>
+				<a href="javascript:;" class="btn" onclick="fun('.two')"><span>写意美感</span></a>
+				<a href="javascript:;" class="btn" onclick="fun('.three')"><span>舒适宽阔</span></a>
+			</div>
+			<a href="#sec" class="visible-sm visible-xs btn" data-toggle="collapse" id="img_wrap">
+				会所环境
+			<img src="images/left.gif" id="img" />
+			</a>
+			<ul class="collapse list-group" id="sec">
+				<li class="list-group-item"><a href="javascript:;" onclick="fun('.one')">五星卫生</a></li>
+				<li class="list-group-item"><a href="javascript:;" onclick="fun('.two')">写意美感</a></li>
+				<li class="list-group-item"><a href="javascript:;" onclick="fun('.three')">舒适宽阔</a></li>
+			</ul>
+			<div class="row">
+				<div class="col-sm-6 col-md-4 one">
+					<a href="show/clu1.html">
+						<section class="pic">
+							<img src="images/img11.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>五星卫生</h4>
+								<p>Five Star Health</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 one">
+					<a href="show/clu2.html">
+						<section class="pic">
+							<img src="images/img10.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>五星卫生</h4>
+								<p>Five Star Health</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 one">
+					<a href="show/clu3.html">
+						<section class="pic">
+							<img src="images/img9.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>五星卫生</h4>
+								<p>Five Star Health</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 two">
+					<a href="show/clu4.html">
+						<section class="pic">
+							<img src="images/img11.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>写意美感</h4>
+								<p>Freehand aesthetic feeling</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 two">
+					<a href="show/clu5.html">
+						<section class="pic">
+							<img src="images/img10.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>写意美感</h4>
+								<p>Freehand aesthetic feeling</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 two">
+					<a href="show/clu6.html">
+						<section class="pic">
+							<img src="images/img9.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>写意美感</h4>
+								<p>Freehand aesthetic feeling</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 three">
+					<a href="show/clu7.html">
+						<section class="pic">
+							<img src="images/img11.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>舒适宽阔</h4>
+								<p>Comfortable and spacious</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 three">
+					<a href="show/clu8.html">
+						<section class="pic">
+							<img src="images/img10.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>舒适宽阔</h4>
+								<p>Comfortable and spacious</p>
+							</div>
+						</section>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 three">
+					<a href="show/clu9.html">
+						<section class="pic">
+							<img src="images/img9.jpg" class="img-responsive" />
+							<div class="textbox text-center">
+								<h4>舒适宽阔</h4>
+								<p>Comfortable and spacious</p>
+							</div>
+						</section>
+					</a>
+				</div>
+			</div>
+			<div class="page">
+				<ul class="list-unstyled clearfix">
+					<li><a href="clubhouse.html">首页</a></li>
+					<li><a href="clubhouse.html">上一页</a></li>
+					<li><a href="clubhouse.html" class="actives">1</a></li>
+					<li><a href="clubhouse1.html">2</a></li>
+					<li><a href="clubhouse1.html">下一页</a></li>
+					<li><a href="clubhouse1.html">末页</a></li>
+				</ul>
+			</div>
+			<p class="text-center record1">共1页3条记录</p>
+		</div>
+	</div>
+	
+	<!-- message开始-->
+	<div class="container-fluid message">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-5 phone text-center">
+					<section class="clearfix center-block">
+						<div class="one pull-left">
+							<img src="../images/a1.png" class="center-block" />
+						</div>						
+						<div class="two pull-left">
+							<img src="../images/ma.png" class="center-block pull-left" />
+							<h4>扫一扫关注我们</h4>
+						</div>						
+					</section>
+					<p class="big center-block">18310897509</p>
+					<p class="aa">贵宾预约电话：18310897509</p>
+					<p class="aa">水怡汇官方QQ: 512587575/513563030</p>
+					<p>北京:</p>
+					<p>天津:</p>
+				</div>
+				<form class="col-md-7">
+					<p>
+						<label for="name">姓名：</label>
+						<input type="text" id="name" required />
+					</p>
+					<p>
+						<label for="phone">电话：</label>
+						<input type="text" id="phone" required />
+					</p>
+					<p>
+						<label for="email">邮箱：</label>
+						<input type="email" id="email" required />
+					</p>
+					<p class="clearfix area">
+						<label for="content">内容：</label>
+						<textarea id="content" required></textarea>
+					</p>
+					<input type="submit" id="result" value="提交留言" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid">
+		<p class="text-center">Copyright ? 2016 vipglx.com All Rights Reserved<br />北京水怡汇文化交流传播有限公司</p>
+	</footer>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/clu.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function(){
+		 $('#banner').carousel({
+            interval:3000
+        });
+		 $('.three').css('display','none')
+	})
+</script>
+</body>
+</html>

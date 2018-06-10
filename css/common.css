@@ -1,0 +1,107 @@
+a:link,.a:visited,.a:hover,.a:active{text-decoration: none;}
+.menu a span{line-height: 12px; display: block; font-family: "Times New Roman"; font-size: 12px; color: rgb(206, 165, 51);}
+.menu li a{line-height: 20px; box-sizing:border-box; padding: 3px 15px; font-size: 14px; color:rgb(51, 51, 51);}	
+.menu li:after{opacity: 0; content: ""; display: block; position: absolute; bottom: -22px; left: 0; background: #d8484a; width: 100%; height: 4px; z-index: 3;}
+.menu li{box-sizing: border-box; height: 40px; border-top: 1px solid rgba(0,0,0,0); border-bottom: 1px solid rgba(0,0,0,0); cursor: pointer; padding-left: 17px; padding-right: 17px;}
+.menu{padding-top: 47px; position: relative;}
+.menu ul{margin-bottom: 28px;}
+header:after{content: ""; display: block; position: absolute; bottom: 7px; left: 0; background: #F2CA72; width: 100%; height: 4px;}
+.menu .logoImg{position: absolute; top: 0; left: 50%; margin-left: -107px; z-index: 4; width: 215px; vertical-align: middle;}
+header .logo{width: 120px; height: 86px; position: absolute; left: 0; top: 0; z-index: 10;}
+header .box .btn{width: 45px; height: 40px; padding: 10px; margin: 10px 0; background: none;}
+header .box .btn span{width: 100%; height: 4px; background: #CEA533; display: block;}
+header .box .btn .span2{margin: 4px 0;}
+header{margin-bottom: 0 !important; border: none !important; background: url(../images/header.jpg) no-repeat center top; background-size:100% 100%; position: relative;}
+.menu li a:hover{background: none;}
+.menu li:hover{border-top: 1px solid #d8484a; border-bottom: 1px solid #d8484a; background: url(../images/pic1.png) no-repeat left top , url(../images/pic2.png) no-repeat right top; transition: .2s;}
+.menu li:hover:after{opacity: 1; transition: .2s;}
+header #nav{position: absolute; right: 0; top:60px; background: rgba(252,231,181,0.8); margin: 0; z-index: 1000;}
+header #nav span{display: block; line-height: 12px; font-size: 12px; color: #CDA639;}
+header #nav li{clear: both;}
+header #nav li a{line-height: 20px; padding-top: 6px; padding-bottom: 6px; font-size: 14px; color: #333333; width: 150px; text-align: center;}
+header #nav li a:hover{background: none;}
+header .collect{position: absolute; right: 30px; top: 0; background: url(../images/bg2.png) no-repeat left top; padding: 0 15px;}			
+header .collect a{padding: 0 10px; font-size: 12px; line-height: 25px; color: #ffffff;}
+header .collect a:hover{text-decoration: none; color: #000000;}
+@media screen and (min-width:769px) and (max-width:991px) {
+	header .box .btn{margin: 20px 0; padding: 10px 7px;}
+	header .logo{width: 190px; height: 136px;}
+	header #nav{top: 80px; margin: 0;}
+}
+@media screen and (min-width:992px) and (max-width:1250px) {
+	.menu{padding-top: 30px;}
+	.menu .logoImg{width: 190px; height: 136px; margin-left: -68px;}
+	.menu li{margin-right: -17px;}
+	.menu li a{padding: 3px 8px;}
+}
+.rotate{transform:translateY(2px) rotate(45deg);transition: .5s;}		
+.rotate1{transform:translateY(-2px) rotate(-45deg);transition: .5s;}
+
+
+/*隐藏头部开始*/
+.smallHeader{background: url(../images/header.jpg) no-repeat center top; background-size:100% auto; display: none; position: fixed; top: 20px; width: 100%; z-index: 1000;}
+.smallHeader .logo{width: 150px; height: 107px; position: absolute; left: 0; top: 0; z-index: 3;}
+.smallHeader ul{padding: 10px 0;}
+.smallHeader li{box-sizing: border-box; height: 40px; cursor: pointer; padding:0 10px;}
+.smallHeader li a{line-height: 20px; box-sizing:border-box; padding: 3px 15px; font-size: 14px; color:rgb(51, 51, 51);}
+.smallHeader li a span{line-height: 12px; display: block; font-family: "Times New Roman"; font-size: 12px; color: rgb(206, 165, 51);}
+.smallHeader li a:hover{background: none; color: red; transition: .2s;}
+@media screen and (min-width:992px) and (max-width:1200px) {
+	.smallHeader li{margin-left: -13px;}
+}
+/*隐藏头部结束*/
+
+/*banner开始*/
+#banner .carousel-indicators li{
+	width: 40px;
+	height: 4px;
+	border: 1px solid #F0C974;
+	border-radius: 0;
+	margin: 0 11px 0 0;
+}
+#banner .carousel-indicators li.active{
+	background:#F0C974;
+	border: 1px solid #F0C974;
+}
+
+
+/* message开始*/
+.message{background: url(../images/bg5.jpg) no-repeat center top; background-size: 100% 100%; padding-top: 50px; padding-bottom: 50px;}
+.message form{border-right: 1px solid #4E4D4D;}
+.message form label{line-height: 40px; font-size: 14px; color: #ffffff; font-weight: normal; margin-right: 16px;}
+.message form input,.message form textarea{border: 1px solid #624F4E; background: rgba(0,0,0,0.22); color: #ffffff; line-height: 38px; font-size: 14px;}	
+.message form input:hover,.message form textarea:hover{border: 1px solid #ffffff; transition: .2s;}
+.message form input[type='submit']{width: 174px; height: 40px; line-height: 40px; color: #ffffff; background: #E2B433; border: none; margin-left: 62px;}
+.message form input[type='submit']:hover{background: #CC2A1E; transition: .2s;}
+.message form input{width: 320px; padding: 0 10px; box-sizing: border-box; height: 40px; line-height: 38px;}
+.message form textarea{height: 82px;width: 100%; max-height: 100%; min-width: 100%;}
+.message .area{padding-left: 62px; position: relative;}
+.message .area label{position: absolute; left: 0px; top: 0;}
+.message .phone{color: #ffffff; padding-left: 30px;}
+.message .phone .one{width: 220px;}
+.message .phone .two{width: 137px; position: relative;}
+.message .phone .two h4{position: absolute; right: 0; top: 0; width: 22px; height: 115px; font-size: 14px; padding-left: 4px;}
+.message .phone img{width: 115px;}
+.message .phone .one img{width: 130px;}
+.message .phone section{border-bottom: 1px solid #645B5B; padding-bottom: 14px; width: 357px;}
+.message .phone .big{width: 254px; font-size: 35px; color: #ffffff; background: url(../images/footer1.png) no-repeat left center; padding-left: 40px;}
+.message .phone p:nth-of-type(4){margin-bottom: 15px;}
+@media screen and (min-width:1201px){
+	.message form{float: left;}
+	.message .phone{float: right;}
+	.message .phone .big{text-align: left;}
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+	.message form{float: left;}
+	.message .phone{float: right;}
+	.message .phone .big{text-align: left;}
+}
+@media screen and (max-width:991px){
+	.message .phone .aa{display: inline-block;}
+	/*.message .phone .big{display: block;}*/
+	.message form{border-right: none; border-top: 1px solid #4E4D4D; padding-top: 30px; margin-top: 30px;}
+}
+
+/*footer开始*/
+footer{background: #FAE5B6;}
+footer p{font-size: 14px; line-height: 22px; padding: 15px 0; margin: 0;}
